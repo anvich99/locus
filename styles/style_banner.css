@@ -1,0 +1,33 @@
+.wrapper{
+    max-width: 1612px;
+    margin: 62px auto;
+}
+.main-banner{
+    display: flex;
+
+}
+.main-banner-right{
+    width: 40%;
+}
+.main-banner-left{
+    background-color: #CCF0E6;
+}
+.main-banner-left-numbers{
+    display: flex;
+}
+.main-banner-left__number{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #58A9A5;
+}
+.main-banner-left__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #486958;
+    }
