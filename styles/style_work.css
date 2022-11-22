@@ -1,0 +1,132 @@
+.works{
+   width: 100%;
+}
+
+.container {
+   width: 1612px;
+   margin: 0 auto;
+}
+
+.work__title {
+   width: 460px;
+   height: 105px;
+   font-family: 'Poppins';
+   font-weight: 800;
+   font-size: 70px;
+   line-height: 105px;
+   text-align: center;
+   color: #1C2323;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+
+.work__subtitle {
+   width: 506px;
+   height: 90px;
+   font-family: 'Poppins';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 45px;
+   text-align: center;
+   color: #404242;
+   margin: 0 auto;
+   margin-bottom: 71px;
+}
+
+.work-advantage-link_photo {
+   position: relative;
+   left: 999px;
+   bottom: 168px
+}
+
+.work__advantage {
+   width: 1612px;
+   height: 350px;
+   margin-bottom: 150px;
+}
+
+.work-advantage-left {
+   display: inline-block;
+   width: 1063px;
+   height: 350px;
+   float: left;
+}
+
+.work-advantage-right {
+   display: inline-block;
+   width: 545px;
+   height: 350px;
+   background-color: #CCF0E6;
+   vertical-align: top;  
+}
+
+.work-advantage-right__text {
+   width: 328px;
+   height: 120px;
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: #486958;
+   margin: 70px 106px 41px 115px;
+}
+
+.work-advantage-right__title {
+width: 130px;
+height: 30px;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #486958;
+margin: 0 304px 89px 115px;
+}
+
+.work__mission {
+   width: 1492pxpx;
+   height: 650px;
+   margin: 0 120px 0 0
+}
+
+.work-mission-left {
+   width: 642px;
+   height: 650px;
+   display: inline-block;
+   margin: 0 138px 0 0;
+}
+
+
+.work-mission__right {
+   width: 708px;
+   height: 465px;
+   display: inline-block;
+   vertical-align: top; 
+}
+
+.work-mission-right__title {
+   width: 487px;
+   height: 180px;
+   font-family: 'Poppins';
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   color: #1C2323;
+   margin: 0 auto 50px 0;
+}
+
+.work-mission-right__text {
+   width: 708px;
+   height: 225px;
+   left: 950px;
+   top: 2188px;
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 45px;
+   color: #486958;
+   margin: 0;
+}
+
+.work-advantage-link{
+   font-size: 0;
+}
