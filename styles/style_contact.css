@@ -1,0 +1,48 @@
+.contact {
+    width: 100%;
+}
+.contact-container {
+    width: 1612px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right {
+
+}
+
+.contact__name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1C2323;
+}
+
+.contact__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #486958;
+}
+
+.contact__line-two {
+    height: 0;
+    width: 135px;
+    border: 5px solid #58A9A5;
+}
+
+.contact__line-one {
+    height: 0;
+    width: 135px;
+    border: 5px solid #58A9A5;
+}
