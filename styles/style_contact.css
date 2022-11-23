@@ -4,16 +4,26 @@
 .contact-container {
     width: 1612px;
     margin: 0 auto;
+}
+
+.contact-wrap{
     display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #486958;
 }
 
 .contact-left{
+    width: 25%;
     display: flex;
     flex-direction: column;
-}
-
-.contact-right {
-
+    align-items: flex-start;
 }
 
 .contact__name {
@@ -24,6 +34,8 @@
     line-height: 105px;
     text-align: center;
     color: #1C2323;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .contact__text {
@@ -33,16 +45,68 @@
     font-size: 25px;
     line-height: 38px;
     color: #486958;
+    margin: 0;
+    margin-bottom: 37px;
 }
 
-.contact__line-two {
+.contact__line {
     height: 0;
     width: 135px;
     border: 5px solid #58A9A5;
+    background-color: #58A9A5;
+    margin-bottom: 15px;
 }
 
-.contact__line-one {
-    height: 0;
-    width: 135px;
-    border: 5px solid #58A9A5;
+.contact__line:last-child {
+    margin-bottom: 0;
 }
+
+.full-name {
+    width: 90%;
+    height: 88px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 7px 0;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.email {
+    width: 90%;
+    height: 88px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.text {
+    width: 90%;
+    height: 58px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 37px 0 0 0;
+    border: 0;
+}
+.button{
+    width: 271px;
+    align-self: flex-end;
+    padding: 21px 73px;
+    background: #58A9A5;
+    border: none;
+    border-radius: 20px 20px 20px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-right: 54px;
+    margin-bottom: 35px;
+}
+
